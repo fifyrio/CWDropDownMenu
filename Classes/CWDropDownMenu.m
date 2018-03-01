@@ -23,6 +23,7 @@ typedef void (^SelectionBlock)(NSString *);
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self setup];
 }
 

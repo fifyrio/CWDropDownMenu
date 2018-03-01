@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => 'LICENSE' }
   s.author       = { "fifyrio" => "fifyrio@qq.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :git => "https://github.com/fifyrio/CWDropDownMenu.git", :commit => "a9787d4cea6977ecd10498e27197252951b91761" }
+  s.source       = { :git => "https://github.com/fifyrio/CWDropDownMenu.git", :tag => '0.0.1' }
 
   s.source_files  = 'Classes/CWDropDownMenu.{h,m}'
   s.frameworks   = "UIKit"
